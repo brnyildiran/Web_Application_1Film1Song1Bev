@@ -1,0 +1,445 @@
+.mediaViewInfo {
+	--web-view-name: HomePage;
+	--web-view-id: HomePage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: HomePage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#HomePage {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(6,10,12,1);
+	overflow: hidden;
+	--web-view-name: HomePage;
+	--web-view-id: HomePage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#GoingHomeBackground {
+	filter: blur(0px);
+	position: absolute;
+	width: 2175px;
+	height: 931.4px;
+	left: -127.5px;
+	top: 74.3px;
+	overflow: visible;
+}
+#Logo {
+	position: absolute;
+	width: 253px;
+	height: 239px;
+	left: 834px;
+	top: -47px;
+	overflow: visible;
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 253px;
+	height: 147px;
+	left: 0px;
+	top: 47px;
+}
+#ID1film1son1bev {
+	position: absolute;
+	width: 239px;
+	height: 239px;
+	left: 7px;
+	top: 0px;
+	overflow: visible;
+}
+#Home {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 98px;
+	top: 21px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Home_q {
+	left: 32px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Privacy {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 229px;
+	top: 21px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Privacy_t {
+	left: 25px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Login {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 1708px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LoginPage.html;
+	cursor: pointer;
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Login_w {
+	left: 33px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Register {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 1573px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: RegisterPage.html;
+	cursor: pointer;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Register_z {
+	left: 22px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Qustions {
+	position: absolute;
+	width: 828.667px;
+	height: 207.49px;
+	left: 90px;
+	top: 288.176px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(255,255,255,0.161);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 846.667px;
+	height: 225.49px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#You_cannot_find_anything_new_t {
+	left: 19.333px;
+	top: 23.824px;
+	position: absolute;
+	overflow: visible;
+	width: 798px;
+	white-space: nowrap;
+	line-height: 65px;
+	margin-top: -17.5px;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(190,190,190,1);
+	text-transform: capitalize;
+}
+#Tell_us_how_you_feel_We_will_r {
+	left: 90px;
+	top: 561px;
+	position: absolute;
+	overflow: visible;
+	width: 1083px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	color: rgba(226,226,226,1);
+	letter-spacing: 0.02px;
+}
+#ID1Film {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1466px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#film-roll {
+	position: absolute;
+	width: 74px;
+	height: 74px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}
+#ID1_Film {
+	left: 14px;
+	top: 84px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#ID1Song {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1590px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_10 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Song {
+	left: 7px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#vinyl {
+	position: absolute;
+	width: 69px;
+	height: 69px;
+	left: 17px;
+	top: 13px;
+	overflow: visible;
+}
+#ID1Bev {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1714px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_11 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Bev {
+	left: 18px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#cocktail {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}

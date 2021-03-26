@@ -1,0 +1,630 @@
+.mediaViewInfo {
+	--web-view-name: MoodPage;
+	--web-view-id: MoodPage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: MoodPage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#MoodPage {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(4,6,7,1);
+	overflow: hidden;
+	--web-view-name: MoodPage;
+	--web-view-id: MoodPage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#MoodPage_k {
+	position: absolute;
+	width: 1246px;
+	height: 934.5px;
+	left: 959px;
+	top: 74.375px;
+	overflow: visible;
+}
+#MoodPage_l {
+	position: absolute;
+	width: 1246px;
+	height: 935px;
+	left: -285px;
+	top: 74.625px;
+	overflow: visible;
+}
+#Home {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 98px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: HomePage.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Home_o {
+	left: 32px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Privacy {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 229px;
+	top: 21px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Privacy_r {
+	left: 25px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Login {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 1708px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: HomePage.html;
+	cursor: pointer;
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Exit {
+	left: 40px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#ID1Film {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1466px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#film-roll {
+	position: absolute;
+	width: 74px;
+	height: 74px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}
+#ID1_Film {
+	left: 14px;
+	top: 84px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#ID1Song {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1590px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_10 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Song {
+	left: 7px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#vinyl {
+	position: absolute;
+	width: 69px;
+	height: 69px;
+	left: 17px;
+	top: 13px;
+	overflow: visible;
+}
+#ID1Bev {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1714px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_11 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Bev {
+	left: 18px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#cocktail {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}
+#Logo {
+	position: absolute;
+	width: 256px;
+	height: 242px;
+	left: 832px;
+	top: -47px;
+	overflow: visible;
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 256px;
+	height: 147px;
+	left: 0px;
+	top: 47px;
+}
+#ID1film1son1bev {
+	position: absolute;
+	width: 242px;
+	height: 242px;
+	left: 7px;
+	top: 0px;
+	overflow: visible;
+}
+#MoodPageText {
+	position: absolute;
+	width: 1116.5px;
+	height: 150px;
+	left: 207px;
+	top: 227px;
+	overflow: visible;
+}
+#HOW_ARE_YOU_FEELING_TODAY {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 100px;
+	color: rgba(226,226,226,1);
+	letter-spacing: 0.02px;
+}
+#Select_your_mood_and_get_today {
+	left: 0px;
+	top: 97px;
+	position: absolute;
+	overflow: visible;
+	width: 916px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(216,216,216,0.831);
+	letter-spacing: 0.02px;
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(76,151,226,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1116px;
+	height: 2px;
+	left: 0.5px;
+	top: 94.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Happy {
+	position: absolute;
+	width: 167px;
+	height: 52px;
+	left: 207px;
+	top: 436px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: MoodPageResults.html;
+	cursor: pointer;
+}
+#Rectangle_18_bg {
+	fill: url(#Rectangle_18_bg);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_18_bg {
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Happy_bh {
+	left: 46px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(183,201,222,1);
+	letter-spacing: 0.02px;
+}
+#Sad {
+	position: absolute;
+	width: 167px;
+	height: 52px;
+	left: 424px;
+	top: 436px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: MoodPageResults.html;
+	cursor: pointer;
+}
+#Rectangle_19_bk {
+	fill: url(#Rectangle_19_bk);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_19_bk {
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Sad_bl {
+	left: 63px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(183,201,222,1);
+	letter-spacing: 0.02px;
+}
+#Bored {
+	position: absolute;
+	width: 167px;
+	height: 52px;
+	left: 641px;
+	top: 436px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: MoodPageResults.html;
+	cursor: pointer;
+}
+#Rectangle_20_bo {
+	fill: url(#Rectangle_20_bo);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_20_bo {
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Bored_bp {
+	left: 49px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(183,201,222,1);
+	letter-spacing: 0.02px;
+}
+#Romantic {
+	position: absolute;
+	width: 167px;
+	height: 52px;
+	left: 858px;
+	top: 436px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: MoodPageResults.html;
+	cursor: pointer;
+}
+#Rectangle_21_bs {
+	fill: url(#Rectangle_21_bs);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_21_bs {
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Romantic_bt {
+	left: 29px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(183,201,222,1);
+	letter-spacing: 0.02px;
+}
+#Inspirational {
+	position: absolute;
+	width: 167px;
+	height: 52px;
+	left: 1075px;
+	top: 436px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: MoodPageResults.html;
+	cursor: pointer;
+}
+#Rectangle_22_bw {
+	fill: url(#Rectangle_22_bw);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_22_bw {
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Inspirational_bx {
+	left: 7px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(183,201,222,1);
+	letter-spacing: 0.02px;
+}
