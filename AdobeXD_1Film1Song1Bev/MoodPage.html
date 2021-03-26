@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoodPage</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="MoodPage.css"/>
+<script id="applicationScript" type="text/javascript" src="MoodPage.js"></script>
+</head>
+<body>
+<div id="MoodPage">
+	<img id="MoodPage_k" src="MoodPage_k.png" srcset="MoodPage_k.png 1x, MoodPage_k@2x.png 2x">
+		
+	<img id="MoodPage_l" src="MoodPage_l.png" srcset="MoodPage_l.png 1x, MoodPage_l@2x.png 2x">
+		
+	<div onclick="application.goToTargetView(event)" id="Home">
+		<svg class="Rectangle_2">
+			<rect id="Rectangle_2" rx="17" ry="17" x="0" y="0" width="109" height="42">
+			</rect>
+		</svg>
+		<div id="Home_o">
+			<span>Home</span>
+		</div>
+	</div>
+	<div id="Privacy">
+		<svg class="Rectangle_3">
+			<rect id="Rectangle_3" rx="17" ry="17" x="0" y="0" width="109" height="42">
+			</rect>
+		</svg>
+		<div id="Privacy_r">
+			<span>Privacy</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Login">
+		<svg class="Rectangle_6">
+			<rect id="Rectangle_6" rx="17" ry="17" x="0" y="0" width="109" height="42">
+			</rect>
+		</svg>
+		<div id="Exit">
+			<span>Exit</span>
+		</div>
+	</div>
+	<div id="ID1Film">
+		<svg class="Rectangle_7">
+			<rect id="Rectangle_7" rx="19" ry="19" x="0" y="0" width="109" height="158">
+			</rect>
+		</svg>
+		<img id="film-roll" src="film-roll.png" srcset="film-roll.png 1x, film-roll@2x.png 2x">
+			
+		<div id="ID1_Film">
+			<span>1 Film</span>
+		</div>
+	</div>
+	<div id="ID1Song">
+		<svg class="Rectangle_10">
+			<rect id="Rectangle_10" rx="19" ry="19" x="0" y="0" width="109" height="158">
+			</rect>
+		</svg>
+		<div id="ID1_Song">
+			<span>1 Song</span>
+		</div>
+		<img id="vinyl" src="vinyl.png" srcset="vinyl.png 1x, vinyl@2x.png 2x">
+			
+	</div>
+	<div id="ID1Bev">
+		<svg class="Rectangle_11">
+			<rect id="Rectangle_11" rx="19" ry="19" x="0" y="0" width="109" height="158">
+			</rect>
+		</svg>
+		<div id="ID1_Bev">
+			<span>1 Bev</span>
+		</div>
+		<img id="cocktail" src="cocktail.png" srcset="cocktail.png 1x, cocktail@2x.png 2x">
+			
+	</div>
+	<div id="Logo">
+		<svg class="Rectangle_12">
+			<rect id="Rectangle_12" rx="0" ry="0" x="0" y="0" width="256" height="147">
+			</rect>
+		</svg>
+		<img id="ID1film1son1bev" src="ID1film1son1bev.png" srcset="ID1film1son1bev.png 1x, ID1film1son1bev@2x.png 2x">
+			
+	</div>
+	<div id="MoodPageText">
+		<div id="HOW_ARE_YOU_FEELING_TODAY">
+			<span>HOW ARE YOU FEELING TODAY?</span>
+		</div>
+		<div id="Select_your_mood_and_get_today">
+			<span>Select your mood and get today's recommendations.</span>
+		</div>
+		<svg class="Line_2" viewBox="0 0 1116 2">
+			<path id="Line_2" d="M 0 0 L 1116 0">
+			</path>
+		</svg>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Happy">
+		<svg class="Rectangle_18_bg">
+			<linearGradient id="Rectangle_18_bg" spreadMethod="pad" x1="0.792" x2="0.247" y1="-0.513" y2="1">
+				<stop offset="0" stop-color="#84a9d8" stop-opacity="1"></stop>
+				<stop offset="0.9288" stop-color="#394d68" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#324967" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="Rectangle_18_bg" rx="8" ry="8" x="0" y="0" width="167" height="52">
+			</rect>
+		</svg>
+		<div id="Happy_bh">
+			<span>Happy</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Sad">
+		<svg class="Rectangle_19_bk">
+			<linearGradient id="Rectangle_19_bk" spreadMethod="pad" x1="0.792" x2="0.247" y1="-0.513" y2="1">
+				<stop offset="0" stop-color="#84a9d8" stop-opacity="1"></stop>
+				<stop offset="0.9288" stop-color="#394d68" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#324967" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="Rectangle_19_bk" rx="8" ry="8" x="0" y="0" width="167" height="52">
+			</rect>
+		</svg>
+		<div id="Sad_bl">
+			<span>Sad</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Bored">
+		<svg class="Rectangle_20_bo">
+			<linearGradient id="Rectangle_20_bo" spreadMethod="pad" x1="0.792" x2="0.247" y1="-0.513" y2="1">
+				<stop offset="0" stop-color="#84a9d8" stop-opacity="1"></stop>
+				<stop offset="0.9288" stop-color="#394d68" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#324967" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="Rectangle_20_bo" rx="8" ry="8" x="0" y="0" width="167" height="52">
+			</rect>
+		</svg>
+		<div id="Bored_bp">
+			<span>Bored</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Romantic">
+		<svg class="Rectangle_21_bs">
+			<linearGradient id="Rectangle_21_bs" spreadMethod="pad" x1="0.792" x2="0.247" y1="-0.513" y2="1">
+				<stop offset="0" stop-color="#84a9d8" stop-opacity="1"></stop>
+				<stop offset="0.9288" stop-color="#394d68" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#324967" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="Rectangle_21_bs" rx="8" ry="8" x="0" y="0" width="167" height="52">
+			</rect>
+		</svg>
+		<div id="Romantic_bt">
+			<span>Romantic</span>
+		</div>
+	</div>
+	<div id="Inspirational">
+		<svg class="Rectangle_22_bw">
+			<linearGradient id="Rectangle_22_bw" spreadMethod="pad" x1="0.792" x2="0.247" y1="-0.513" y2="1">
+				<stop offset="0" stop-color="#84a9d8" stop-opacity="1"></stop>
+				<stop offset="0.9288" stop-color="#394d68" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#324967" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="Rectangle_22_bw" rx="8" ry="8" x="0" y="0" width="185" height="52">
+			</rect>
+		</svg>
+		<div id="Inspirational_bx">
+			<span>Inspirational</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

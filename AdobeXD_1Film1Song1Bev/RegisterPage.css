@@ -1,0 +1,628 @@
+.mediaViewInfo {
+	--web-view-name: RegisterPage;
+	--web-view-id: RegisterPage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: RegisterPage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#RegisterPage {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(4,6,7,1);
+	overflow: hidden;
+	--web-view-name: RegisterPage;
+	--web-view-id: RegisterPage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Register_Background {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 2661.5px;
+	height: 933px;
+	left: 0px;
+	top: 74px;
+	overflow: visible;
+}
+#register1 {
+	filter: blur(15px);
+	position: absolute;
+	width: 1399.5px;
+	height: 933px;
+	left: 1262px;
+	top: 0px;
+	overflow: visible;
+}
+#register {
+	filter: blur(10px);
+	position: absolute;
+	width: 1400px;
+	height: 933px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Home {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 98px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: HomePage.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Home_p {
+	left: 32px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Privacy {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 229px;
+	top: 21px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Privacy_s {
+	left: 25px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Login {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 1708px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LoginPage.html;
+	cursor: pointer;
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Login_v {
+	left: 33px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Register_w {
+	position: absolute;
+	width: 109px;
+	height: 42px;
+	left: 1573px;
+	top: 21px;
+	overflow: visible;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Register_y {
+	left: 22px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#ID1Film {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1466px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#film-roll {
+	position: absolute;
+	width: 74px;
+	height: 74px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}
+#ID1_Film {
+	left: 14px;
+	top: 84px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#ID1Song {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1590px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_10 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Song {
+	left: 7px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#vinyl {
+	position: absolute;
+	width: 69px;
+	height: 69px;
+	left: 17px;
+	top: 13px;
+	overflow: visible;
+}
+#ID1Bev {
+	position: absolute;
+	width: 109px;
+	height: 158px;
+	left: 1714px;
+	top: 944px;
+	overflow: visible;
+}
+#Rectangle_11 {
+	fill: rgba(217,217,217,0.439);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 158px;
+	left: 0px;
+	top: 0px;
+}
+#ID1_Bev {
+	left: 18px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#cocktail {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 18px;
+	top: 9px;
+	overflow: visible;
+}
+#Logo {
+	position: absolute;
+	width: 256px;
+	height: 242px;
+	left: 832px;
+	top: -47px;
+	overflow: visible;
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 256px;
+	height: 147px;
+	left: 0px;
+	top: 47px;
+}
+#ID1film1son1bev {
+	position: absolute;
+	width: 242px;
+	height: 242px;
+	left: 7px;
+	top: 0px;
+	overflow: visible;
+}
+#Text_Register_Page {
+	position: absolute;
+	width: 355.5px;
+	height: 131.5px;
+	left: 153px;
+	top: 195px;
+	overflow: visible;
+}
+#Register_bf {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	color: rgba(216,216,216,1);
+	letter-spacing: 0.02px;
+	text-decoration: underline;
+}
+#Create_new_account {
+	left: 0px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 302px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(207,207,207,1);
+	letter-spacing: 0.02px;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(110,110,110,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 355px;
+	height: 2px;
+	left: 0.5px;
+	top: 131.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Email {
+	position: absolute;
+	width: 412px;
+	height: 97px;
+	left: 154px;
+	top: 348px;
+	overflow: visible;
+}
+#Rectangle_13 {
+	opacity: 0.65;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 412px;
+	height: 49px;
+	left: 0px;
+	top: 48px;
+}
+#Email_bk {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(207,207,207,1);
+	letter-spacing: 0.02px;
+}
+#Password {
+	position: absolute;
+	width: 412px;
+	height: 97px;
+	left: 154px;
+	top: 460px;
+	overflow: visible;
+}
+#Rectangle_14 {
+	opacity: 0.65;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 412px;
+	height: 49px;
+	left: 0px;
+	top: 48px;
+}
+#Password_bn {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(207,207,207,1);
+	letter-spacing: 0.02px;
+}
+#ConfirmPassword {
+	position: absolute;
+	width: 412px;
+	height: 97px;
+	left: 154px;
+	top: 572px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	opacity: 0.65;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 412px;
+	height: 49px;
+	left: 0px;
+	top: 48px;
+}
+#Confirm_Password {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 218px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(207,207,207,1);
+	letter-spacing: 0.02px;
+}
+#RegisterButton {
+	position: absolute;
+	width: 173px;
+	height: 54px;
+	left: 393px;
+	top: 721px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LoginPage.html;
+	cursor: pointer;
+}
+#Rectangle_16_bt {
+	fill: url(#Rectangle_16_bt);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16_bt {
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	height: 54px;
+	left: 0px;
+	top: 0px;
+}
+#Register_bu {
+	left: 16px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tw Cen MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(216,216,216,1);
+	letter-spacing: 0.02px;
+}
